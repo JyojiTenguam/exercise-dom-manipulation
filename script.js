@@ -21,3 +21,6 @@ window.onload = alterarTexto;
 
 // exercicio 02
 document.querySelector('.main-content').style.backgroundColor = 'rgb(76, 164, 109)';
+
+// exercicio 03
+document.querySelector('.center-content').style.backgroundColor = 'white';
