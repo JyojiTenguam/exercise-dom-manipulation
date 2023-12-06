@@ -17,3 +17,8 @@ document.querySelector('.title').innerText = 'Desafio - JavaScript';
 
 // exercicio 05
 document.querySelector('.center-content p:nth-child(1)').innerText = 'TEXTO PADRÃO DO NOSSO SITE';
+
+// exercicio 06
+const section = document.querySelectorAll('section p');
+const footer = `${section[0].innerText} ${section[1].innerText} ${section[2].innerText}`;
+document.querySelectorAll('footer p')[0].innerHTML = footer;
