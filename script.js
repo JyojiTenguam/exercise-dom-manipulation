@@ -1,7 +1,6 @@
 // Seu código aqui.
 
 // exercicio 01
-// script.js
 
 // Função para alterar o texto da tag <p>
 function alterarTexto() {
@@ -19,3 +18,6 @@ function alterarTexto() {
 
 // Chama a função quando a página é carregada
 window.onload = alterarTexto;
+
+// exercicio 02
+document.querySelector('.main-content').style.backgroundColor = 'rgb(76, 164, 109)';
