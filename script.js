@@ -14,3 +14,6 @@ document.querySelector('.center-content').style.backgroundColor = 'white';
 
 // exercicio 04
 document.querySelector('.title').innerText = 'Desafio - JavaScript';
+
+// exercicio 05
+document.querySelector('.center-content p:nth-child(1)').innerText = 'TEXTO PADRÃO DO NOSSO SITE';
